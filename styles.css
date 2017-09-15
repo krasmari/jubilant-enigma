@@ -1,0 +1,46 @@
+@media all and (min-width: 1080px) {
+  .product-description {
+    margin-top: 20px;
+  }
+}
+
+.product-description {
+  text-align: justify;
+}
+
+.similar-products {
+  margin-top: 20px;
+}
+
+.similar-product {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ccc;
+}
+
+.footer-links {
+  float: right;
+}
+
+.footer-links a {
+  margin-left: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .footer-links {
+    float: left;
+  }
+
+  .footer-links a {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+}
